@@ -1,4 +1,4 @@
-package org.ioak.template;
+package org.ioak.mirror;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -9,10 +9,10 @@ import org.springframework.context.annotation.PropertySources;
 @PropertySources({
 		@PropertySource("classpath:/spring-boot.properties")
 })
-public class IoakApplication {
+public class MirrorApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(IoakApplication.class, args);
+		SpringApplication.run(MirrorApplication.class, args);
 	}
 
 }
